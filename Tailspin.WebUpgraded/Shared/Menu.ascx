@@ -5,5 +5,7 @@
         <%foreach (ProductCategory category in Model) { %>
     	    <li id="<%=category.Code%>"><a href="<%=Url.Action("Index","Home",new {slug=category.Code}) %>" title="Browse <%=category.Name%>"><%=category.Name%></a></li>
          <%} %>
+		 <li>Andre</li>
     </ul>
+	
 </div><!--end top-menu-->

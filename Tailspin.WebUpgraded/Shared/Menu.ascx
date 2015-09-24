@@ -15,7 +15,8 @@ a.menuFeatures
          <%} %>
 		   
     </ul>
-	<a class="menuFeatures" href="#">Feature A</a>
-	<a class="menuFeatures" href="#">Feature B</a>
-	
+	<!--
+	<a class="menuFeatures" href="#">FeatureA</a>
+	<a class="menuFeatures" href="#">FeatureB</a>
+	-->
 </div><!--end top-menu-->

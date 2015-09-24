@@ -1,5 +1,13 @@
 ﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<IList<ProductCategory>>" %>
 
+<style>
+a.menuFeatures 
+{	
+	color: black;
+    font-size: 32px;
+}
+</style>
+
 <div class="top-menu">
 	<ul id="menulist">
         <%foreach (ProductCategory category in Model) { %>
@@ -7,7 +15,7 @@
          <%} %>
 		   
     </ul>
-	<a href="#">Feature A</a>
-	<a href="#">Feature B</a>
+	<a class="menuFeatures" href="#">Feature A</a>
+	<a class="menuFeatures" href="#">Feature B</a>
 	
 </div><!--end top-menu-->

@@ -16,7 +16,15 @@ a.menuFeatures
 		   
     </ul>
 	
+	<!--
 	<a class="menuFeatures" href="#">FeatureA</a>
 	<a class="menuFeatures" href="#">FeatureB</a>
+	-->
+	
+	
+	<!--
+	<a class="menuFeatures" href="#">FeatureA</a>
+	<a class="menuFeatures" href="#">FeatureB</a>
+	-->
 	
 </div><!--end top-menu-->

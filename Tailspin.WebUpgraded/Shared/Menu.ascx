@@ -19,13 +19,14 @@
 
 		</ul>
 
-		<a class="menuFeatures" href="telemetria('FeatureA')">FeatureA</a>
-		<a class="menuFeatures" href="telemetria('FeatureB')">FeatureB</a>
+		<a class="menuFeatures" href="javascript:telemetria('FeatureA')">FeatureA</a>
+		<a class="menuFeatures" href="javascript:telemetria('FeatureB')">FeatureB</a>
 
 		<script>
         function telemetria (nomeEvento) {
 			appInsights.trackEvent(nomeEvento);
 			alert("obrigado por demonstrar interesse na funcionalidade " + nomeEvento);
+			return;
 		}
 		</script>
 

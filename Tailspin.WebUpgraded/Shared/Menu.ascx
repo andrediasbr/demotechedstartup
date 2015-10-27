@@ -18,6 +18,8 @@
 				<%} %>
 
 		</ul>
+		
+		<!--
 
 		<a class="menuFeatures" href="javascript:telemetria('FeatureA')">FeatureA</a>
 		<a class="menuFeatures" href="javascript:telemetria('FeatureB')">FeatureB</a>
@@ -30,6 +32,8 @@
 			return;
 		}
 		</script>
+		
+		-->
 		
 		<!--
 To collect end-user usage analytics about your application,
